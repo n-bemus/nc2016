@@ -1,0 +1,58 @@
+body
+{
+    font-size: 80%;                         /* Default font and size for page */
+    font-family: 'Courier New', Verdana, Arial, Sans-Serif;
+    background-color: teal;
+}
+ul#tabs
+{
+    list-style-type: none;                  /* No bullets                     */
+    margin: 20px 0 0 0;                /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make  */
+    /* them adjacent to the content   */
+}
+ul#tabs li
+{
+    display: inline;
+    padding: 12px;
+}
+
+ul#tabs li a
+{
+    color: teal;
+    background-color: antiquewhite;
+    border: 4px solid lightcyan;
+    /*border-bottom: none;*/
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0.2em 1em 1em 1em;
+    text-decoration: none;
+
+}
+
+ul#tabs li a:hover
+{
+    background-color: #fff;
+}
+
+ul#tabs li a.selected
+{
+    color: #000;
+    background-color: darkgrey;
+    font-weight: bold;
+    padding: 0.7em 1em 0.38em 1em;
+    border-bottom: none;
+}
+
+div.tabContent
+{
+    border-top: none;
+    border: 4px solid lightcyan;
+    padding: 0.5em;
+    background-color: antiquewhite;
+}
+
+div.tabContent.hide
+{
+    display: none;
+}

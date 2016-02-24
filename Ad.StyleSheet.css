@@ -1,0 +1,87 @@
+body
+{
+    background-color: rgb(217, 13, 40);
+    padding: 0px;
+}
+
+.Original_Pic
+{
+    /*position: relative;*/
+    position: absolute;
+    margin-left: 900px;
+    border: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+.Title
+{
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "Bell MT", "Bell MT", serif;
+    font-style: normal;
+    font-size: 48pt;
+    /*text-align: center;*/
+}
+
+.Main_Picture
+{
+    /*z-index: -1;*/
+    margin-top: 250px;
+    margin-left: 300px;
+    align-content: center;
+    position: absolute;
+}
+
+.Ad_Logo
+{
+    margin-left: 775px;
+    margin-top: 500px;
+    position: absolute;
+
+}
+
+.Main_Paragraph
+{
+    float: left;
+    font-size: 14px;
+    word-spacing: 8px;
+    line-height: 25px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    font-family: "Calibri", "body";
+    text-align: center;
+
+    color: white;
+}
+
+
+.Bottom
+{
+    font-weight: normal;
+    margin-outside: 0px;
+    color: black;
+    background-color: white;
+    margin-top: 496px;
+    border-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    width: 900px;
+    padding-left: 30px;
+}
+
+#Pain_in_the_Butt
+{
+    font-weight: bolder;
+
+
+}
+
+#centerText
+{
+    margin-left: 100px;
+    float: left;
+}
