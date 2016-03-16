@@ -1,7 +1,7 @@
 body
 {
     font-size: 80%;                         /* Default font and size for page */
-    font-family: 'Courier New', Verdana, Arial, Sans-Serif;
+    font-family: 'Courier New';
     background-color: teal;
 }
 ul#tabs

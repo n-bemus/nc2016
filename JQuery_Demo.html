@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Demonstrate jQueryEffects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="JQuery_Demo.js"></script>
+    <link href="JQuery_Style.css" type ="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div>
+        <p>Choose a game you wish to learn a little about:</p><br>
+        <img id = "Crash_img" src="Crash_Bandicoot_Cover.png" alt="Crash_Bandicoot" width = "300px" height = "300px">
+        <img id = "Spyro_img" src="spyro_the_dragon_cover.jpg" alt="Crash_Bandicoot" width = "300px" height = "300px">
+        <img id = "Mega_man_img" src="Mega_Man_X_Cover.jpg" alt="Crash_Bandicoot" width = "300px" height = "300px">
+        <img id = "Zelda_img" src="legend_of_zelda_a_link_to_the_past_snes_cover.jpg" width = "300px" height = "300px">
+    </div>
+
+    <p id = "Crash_Discription" style = "display: none";>
+        -This game was made by Naughty Dog in 1996.<br>
+        -It was one of the first 3d platformers that stars Crash<br>
+        -The main objective is to collect gems and defeat the evil Dr. Neo Cortex<br>
+    </p>
+
+    <p id = "Spyro_Discription" style = "display: none";>
+        -This game was made by Insomniac Games, and Activision in 1998.<br>
+        -This was a game franchise that would later become very successful<br>
+        -The main objective is to collect gems, free dragons, and defeat the Gnasty Gnork<br>
+    </p>
+
+    <p id = "Mega_Man_Discription" style = "display: none";>
+        -This game was made by Capcom in 1993.<br>
+        -It was the first in the series Mega Man X<br>
+        -The main objective is to navigate through complex stages,<br>
+        gain new powers from defeated bosses and to defeat the evil Sigma<br>
+    </p>
+
+    <p id = "Zelda_Discription" style = "display: none";>
+        -This game was made by Nintendo in 1991.<br>
+        -This is a classic game that most people appreciate stars the hero Link<br>
+        -The main objective is to collect quest items and defeat the evil<br>
+        Ganondorf with the legendary Master Sword
+    </p>
+
+
+    <!-- Test Buttons -->
+
+    <button onclick="ShowCrash()">Show Crash</button>
+    <button onclick="ShowSpyro()">Show Spyro</button>
+    <button onclick="ShowMegaMan()">Show Mega Man X</button>
+    <button onclick="ShowZelda()">Show Zelda</button>
+
+</body>
+</html>
