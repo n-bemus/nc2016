@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Database Insert</title>
+    <link 	rel="stylesheet" type="text/css" href="Databases_Insert_Style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="Databases_Insert.js" type="text/javascript"></script>
+</head>
+<body onload="onLoad()">
+<form name="Database_Insert">
+    Developer Name:
+    <input type="text" id="developer_name" name="developer_name">
+    <br>
+    <br>
+    Developer Console Count:
+    <input type="text" id="developer_console_count" name="developer_console_count">
+    <br>
+    <br>
+    Platform:
+    <select id="platform" name="platform"></select>
+    <br>
+    <br>
+
+    <button type="button" onclick="insertDeveloper_Game()">
+        Insert
+    </button>
+    <br>
+
+    <p id="results"></p>
+    <p id="elements"></p>
+</form>
+</body>
+</html>
